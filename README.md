@@ -17,10 +17,16 @@ Golang
     i) `Executable`, Generates a file that we can run.
     ii) `Reusable`, Code used as "helpers".  Good place to put reusable logic. 
 
-3. What does `import "fmt" ` mean?
+3. Why do we use `import` statements?
 
-    The "fmt" package stands for "format" and provides functions for formatted I/O (input/output), such as printing to the console or reading input from the user.
+    To give our package access to code written in another package
+
+4. What does `import "fmt" ` mean?
+
+    ->The "fmt" package stands for "format" and provides functions for formatted I/O (input/output), such as printing to the console or reading input from the user.
     
-4. What's that `func` thing?
+5. What's that `func` thing?
 
-5. How is the `main.go` file organized?
+    `func` is a keyword to declare a function
+    
+6. How is the `main.go` file organized?
