@@ -59,3 +59,5 @@ Golang
     
     1. Array > Fixed length list of things
     2. Slice > An array that can grow or shrink and every element in a slice must be of same type
+
+    -> slice[0:2] in which `0` means startIndexIncluding and 2 means upToNotIncluding
